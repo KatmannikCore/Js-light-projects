@@ -1,0 +1,59 @@
+
+.keyboard {
+    background-color: brown;
+   
+    padding: 10px;
+    width: 900px;
+    margin: 0 auto;
+}
+.button{
+    width: 60px;
+    height: 60px;
+    background: blanchedalmond;
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    transition-duration: 100ms;
+    border: 1px solid  black;
+    border-radius:3px ;
+}
+.input input{
+    width: 600px;
+    height: 60px;
+    margin: 20px;
+    font-size: 40px;
+}
+.input {
+    display: flex;
+    justify-content: center;
+
+}
+.key-active{
+    background: rgb(0, 0, 0);
+    color: white;
+    opacity: 0.5;
+}
+.button:hover{
+    background: rgb(0, 0, 0);
+    color: white;
+    opacity: 0.5; 
+}
+.button_active{
+    background: rgb(0, 0, 0);
+    color: white;
+    opacity: 0.5; 
+}
+.numbers{
+    display: flex;
+    justify-content: center;
+}
+.letters{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.letters div{
+    flex-basis: 8%;
+}
